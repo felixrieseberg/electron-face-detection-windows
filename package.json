@@ -1,0 +1,27 @@
+{
+  "name": "electron-face-detection",
+  "version": "0.1.0",
+  "description": "Detect Faces in images, using Windows' very own face detection",
+  "main": "facedetection.js",
+  "scripts": {
+    "test": "standard **/*.js"
+  },
+  "author": {
+    "email": "felix@felixrieseberg.com",
+    "name": "Felix Rieseberg",
+    "url": "http://www.felixrieseberg.com"
+  },
+  "os": [
+    "win32"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@nodert-win10/windows.graphics.imaging": "^0.2.95",
+    "@nodert-win10/windows.media.faceanalysis": "^0.2.95",
+    "@nodert-win10/windows.storage": "^0.2.95",
+    "@nodert-win10/windows.storage.streams": "^0.2.95"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
