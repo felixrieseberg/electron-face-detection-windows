@@ -1,6 +1,6 @@
 {
   "name": "electron-face-detection-windows",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Detect Faces in images, using Windows' very own face detection",
   "main": "facedetection.js",
   "scripts": {
